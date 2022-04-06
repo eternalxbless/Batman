@@ -1,85 +1,110 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 *:focus:not(:focus-visible) {
-  outline: none;
+    outline: none;
 }
+
 html,
 body {
-  font-size: 62.5%;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .container {
-  width: 113.5rem;
-  margin: 0 auto;
+    width: 113.5rem;
+    margin: 0 auto;
 }
 
 .header {
-  padding-top: 6.4rem;
-  padding-bottom: 6.4rem;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
 }
+
 .header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .header__menu {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .header__logo {
-  width: 7.9rem;
-  height: 2.8rem;
-  margin-right: 3.9rem;
+    width: 7.9rem;
+    height: 2.8rem;
+    margin-right: 3.9rem;
 }
+
 .header__nav a:not(:last-child) {
-  margin-right: 2.4rem;
+    margin-right: 2.4rem;
 }
+
 .header__nav a {
-  color: #ffff;
-  text-decoration: none;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 114%;
 }
 
 .header__socials-icon {
-  width: 1.7rem;
-  height: 1.6rem;
+    width: 1.7rem;
+    height: 1.6rem;
 }
+
 .header__socials-icon:not(:last-child) {
-  margin-right: 2rem;
+    margin-right: 2rem;
 }
 
 body {
-  background: url("../img/background.jpg");
+    background: url("../img/background.jpg");
 }
 
 .footer {
-  background-color: #030102;
-  color: #ffff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+    background-color: #030102;
+    color: #ffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+
 .footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__menu {
-  display: flex;
-  padding-left: 0;
+    display: flex;
+    padding-left: 0;
 }
 
 .footer__menu li {
-  list-style: none;
+    list-style: none;
 }
+
 .footer__menu li a {
-  color: #ffffff;
-  text-decoration: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 144%;
+    color: #686767;
 }
 
 .footer__menu li:not(:last-child) {
-  margin-right: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.footer__copy {
+    font-size: 1.4rem;
+    line-height: 144%;
+    color: #686767;
 }
